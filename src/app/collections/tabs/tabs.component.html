@@ -1,0 +1,23 @@
+<div class="ui grid">
+    <div class="four wide column">
+        <div class="ui vertical fluid tabular menu">
+            <a class="item" routerLink="./cameras" routerLinkActive='active'>
+                Cameras
+            </a>
+
+            <a class="item" routerLink="./books" routerLinkActive='active'>
+                Books
+            </a>
+
+            <a class="item" routerLink="./furniture" routerLinkActive='active'>
+                Furniture
+            </a>
+
+        </div>
+    </div>
+    <div class="twelve wide stretched column">
+        <div class="ui segment">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

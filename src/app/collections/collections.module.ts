@@ -8,10 +8,11 @@ import { TableComponent } from './table/table.component';
 import { CamerasComponent } from './categories/cameras/cameras.component';
 import { BooksComponent } from './categories/books/books.component';
 import { FurnitureComponent } from './categories/furniture/furniture.component';
+import { TabsComponent } from './tabs/tabs.component';
 
 
 @NgModule({
-  declarations: [CollectionsHomeComponent, TableComponent, CamerasComponent, BooksComponent, FurnitureComponent],
+  declarations: [CollectionsHomeComponent, TableComponent, CamerasComponent, BooksComponent, FurnitureComponent, TabsComponent],
   imports: [
     CommonModule,
     SharedModule,
